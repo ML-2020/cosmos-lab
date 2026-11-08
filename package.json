@@ -1,0 +1,20 @@
+{
+  "name": "cosmos-lab",
+  "version": "1.0.0",
+  "description": "宇宙观实验室 — 在地平说、巨球论、地心说、日心说下看同一片真实星空",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node tools/test_astro.mjs"
+  },
+  "dependencies": {
+    "astronomy-engine": "^2.1.19",
+    "esbuild": "^0.28.2",
+    "three": "^0.186.1",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
