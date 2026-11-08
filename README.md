@@ -36,9 +36,14 @@ npm test             # 可选：天文内核校验
 | `PROGRESS.md` | 开发记录与设计决策 |
 | `LICENSE`、`THIRD_PARTY_NOTICES.md` | 代码许可证，以及内嵌第三方库/数据/字体的版权与许可全文 |
 
+## 线上地址
+
+- GitHub Pages：https://ml-2020.github.io/cosmos-lab/
+- Cloudflare Pages：https://cosmos-lab.pages.dev/
+
 ## 部署
 
-- **Cloudflare Pages**：构建命令 `npm ci && npm run build`，输出目录 `dist`，Node 版本由 `.node-version` 指定。
+- **Cloudflare Pages**：已连接本仓库，构建命令 `npm ci && npm run build`，输出目录 `dist`，Node 版本由 `.node-version` 指定；推送到 `main` 自动构建和部署。
 - **GitHub Pages**：仓库 Settings → Pages → Source 选 “GitHub Actions”，推送到 `main` 后由 `.github/workflows/pages.yml` 自动发布。
 
 ## 数据与致谢
